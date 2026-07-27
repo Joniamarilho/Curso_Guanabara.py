@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome: '))
+print('Analiosando seu nome...')
+print(f'Seu nome em maiúsculas: {nome.upper()}.')
+print(f'Seu nome em minúsculas: {nome.lower()}.')    
+print(f'Seu nome ao todo tem {len(nome.replace(" ", ""))} letras.')

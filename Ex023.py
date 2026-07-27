@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome: '))
+print(len(f'Olá {nome}, seja bem-vindo! Seu nome tem {len(nome)} letras.'))
+print(f'Seu nome tem {nome.lower().count("a") + nome.lower().count("e") + nome.lower().count("i") + nome.lower().count("o") + nome.lower().count("u")} letras minúsculas.')
+print(f'Seu nome tem quantas letras maiúsculas: {nome.upper().count("A") + nome.upper().count("E") + nome.upper().count("I") + nome.upper().count("O") + nome.upper().count("U")}.')
+print(f'Seu `nome tem letras sem espaços: {len(nome.replace(" ", ""))}.')
+print(f'Seu nome tem quantas letras no primeiro nome: {len(nome.split()[0])}.')
